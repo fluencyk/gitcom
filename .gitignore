@@ -1,0 +1,36 @@
+# ==========================================
+# GitCom - Git Ignore Rules
+# ==========================================
+
+# macOS
+.DS_Store
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Python virtual environments
+.venv/
+.venv-*/
+venv/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Local backups
+.backup_*/
+
+# Local experimental repositories
+_experimental_sandbox/
+
+# Editor local settings
+.vscode/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.swp
